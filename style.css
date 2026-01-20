@@ -19,11 +19,17 @@ body {
     align-items: center;
 }
 
+h3 {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
 p{
     margin-top: 10px;
     font-size: 16px;
     color: hsl(0, 0%, 42%);
 }
+
 
 .container {
     width: 350px;
@@ -35,8 +41,7 @@ p{
 }
 
 .tag {
-    width: 95px;
-    margin: 10px 0;
+    width: 90px;
     padding: 5px 10px;
     border-radius: 10px;
     background-color: hsl(47, 88%, 63%);
