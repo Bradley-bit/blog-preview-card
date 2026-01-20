@@ -14,6 +14,7 @@ body {
     font-family: Figtree;
     height: 100vh;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
 }
@@ -23,9 +24,13 @@ p{
 }
 
 .container {
-    width: 800px;
+    width: 350px;
     /* margin: 0 auto; */
     padding: 20px;
     border-radius: 10px;
     background-color: hsl(0, 0%, 100%);
+}
+
+.container > img  {
+    width: 100%;
 }
