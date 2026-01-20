@@ -34,3 +34,15 @@ p{
 .container > img  {
     width: 100%;
 }
+
+.flex-container {
+    margin-top: 20px;
+    /* width: 90px; */
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-container > img{
+    width: 10%;
+}
